@@ -37,7 +37,7 @@ def calculer_moyenne(notes):
     calculMoyenne=0
     for i in notes:
         calculMoyenne+=i
-        calculMoyenneFinal=calculMoyenne/2
+        calculMoyenneFinal=calculMoyenne/len(notes)
     print(calculMoyenneFinal)
 
 #On demande a l'utilisateur le nombre d'élève a entrer
